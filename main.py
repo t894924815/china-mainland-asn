@@ -14,8 +14,10 @@ class main():
         # input the name of the func which has ability of writing asn and name from website or db to self.asn_dict
         # self.requset_url_func_list = [
         #     self.res_from_ipip_net, self.res_from_he_net]
+        # self.requset_url_func_list = [
+        #      self.res_from_he_net]
         self.requset_url_func_list = [
-             self.res_from_he_net]
+                self.res_from_ipip_net]
         # asn_dict: {asn:name}
         self.asn_dict = dict()
         self.queue_list = []
